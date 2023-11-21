@@ -59,6 +59,14 @@ Ensure you have Python and pip installed. Additionally, set up a PostgreSQL data
 
 ## Usage
 
+1. ### Access the Swagger documentation:
+
+   Open your browser and go to http://127.0.0.1:8000/docs to interact with the API using the Swagger UI.
+
+2. ### Test the API:
+
+   Use the provided endpoints to suggest words and complete sentences.
+
 ### Word Suggestion Usage
 
 Send a POST request to `/suggest_word` with a JSON payload:
@@ -78,5 +86,9 @@ Send a POST request to `/select_word`:
 {
   "selected_word_id": 1
 }
+```
 2. The response will contain the completed sentence.
 
+
+
+## Thanks for your time:>
