@@ -1,0 +1,9 @@
+fastapi==0.104.1
+psycopg2-binary==2.9.9
+pydantic==2.5.1
+pydantic_core==2.14.3
+torch==2.1.1+cpu
+torchaudio==2.1.1+cpu
+torchvision==0.16.1+cpu
+transformers @ git+https://github.com/huggingface/transformers@25b0f2033ba23e354ef2f665764248fcbb3f49ba
+uvicorn==0.24.0.post1
